@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0; 
+}
+
+.main{
+    background-image: url('../images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.main-head {
+    /* background-color:#101058; */
+    /* background-color: rgb(45, 45, 70); */
+    padding: 10px;
+}
+
+.main-head h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-transform: uppercase;
+}
+
+main {
+    margin-top: 20px;
+}
+
+main h2 {
+    color: rgb(45, 45, 70);
+    /* width: 150px; */
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 60px 0px;
+    border-radius: 30px;
+}
+
+.login-form label {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:  rgb(45, 45, 70);
+    font-weight: bold;
+    width: 200px;
+    padding: 8px;
+}
+
+.login-form input {
+    width: 500px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid silver;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 7px;
+}
+
+.login-form a {
+    color: rgb(45, 45, 70);
+    text-decoration: none;
+}
+
+.reset-container{
+    display: flex; flex-direction: row; align-items: center; justify-content: center;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+#login-submit {
+    width: 200px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: white;
+    border:1px solid rgb(45, 45, 70);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.95em;
+    padding: 10px;
+    background-color: rgb(45, 45, 70);
+    /* background-color:rgb(5, 5, 20); */
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+
+
+#login-submit:hover {
+    background-color: #fff!important;
+    color: rgb(45,45,70)!important;
+}

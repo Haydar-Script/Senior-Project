@@ -1,0 +1,92 @@
+*{
+    color:
+     rgb(45, 45, 70);
+}
+
+body {
+    padding: 0;
+    margin: 0; 
+}
+
+h3{
+    color:white
+}
+
+.main-head {
+    background-color:#101058;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links-container a{
+    text-decoration: none;
+}
+
+.main-head div a{
+    padding:0px 20px;
+}
+
+
+.main-head a {
+    color:white;
+}
+
+.main-head h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-transform: uppercase;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.transportation-container{
+    display: flex;
+    flex-direction: column;
+    margin:20px 60px;
+}
+
+.transportation-card{ 
+    border:1px solid rgb(45, 45, 70);
+    border-radius: 30px;
+    height:240px;
+    margin-bottom: 20px;
+    padding:60px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.sign-out-button{
+    background: transparent!important;
+    border:none;
+    color:#fff;
+}
+
+.sign-out-button:hover{
+cursor:pointer;
+}
+
+
+.transportation-card-right button{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #f44336;
+    border:1px solid #f44336;
+    padding:5px 10px;
+    color:white;
+    transition: background-color 0.5s ease;
+}
+
+.transportation-card-right button:hover{
+    cursor:pointer;
+    background-color: white;
+    color:#f44336;
+}

@@ -1,0 +1,106 @@
+*{
+    color:
+     rgb(45, 45, 70);
+}
+
+h3{
+    color:white
+}
+
+body {
+    padding: 0;
+    margin: 0; 
+    overflow-x: hidden!important;
+}
+
+.main-header {
+    background-color:#101058;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links-container a{
+    text-decoration: none;
+}
+
+.sign-out-button{
+    background: transparent!important;
+    border:none;
+    color:#fff;
+}
+
+.sign-out-button:hover{
+cursor:pointer;
+}
+
+
+.main-header div a{
+    padding:0px 20px;
+}
+
+.main-header a {
+    color:white;
+}
+
+.main-header h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-transform: uppercase;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.transportation-container{
+    display: flex;
+    flex-direction: column;
+    margin:20px 60px;
+}
+
+.transportation-card{ 
+    border:1px solid rgb(45, 45, 70);
+    border-radius: 30px;
+    height:240px;
+    margin-bottom: 20px;
+    padding:20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transportation-card-right button{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    border:1px solid #4CAF50;
+    padding:5px 0px;
+    color:white;
+    transition: background-color 0.5s ease;
+}
+
+.transportation-card-right button:hover{
+    cursor:pointer;
+    background-color: white;
+    color:#4CAF50;
+}
+
+#delete-button{
+    background-color: #f44336!important;
+    border:1px solid #f44336!important;
+    padding:5px 0px!important;
+    color:white!important;
+    transition: background-color 0.5s ease!important;
+}
+
+
+.transportation-card-right #delete-button:hover{
+    cursor:pointer!important;
+    background-color: white!important;
+    color:#f44336!important;
+}

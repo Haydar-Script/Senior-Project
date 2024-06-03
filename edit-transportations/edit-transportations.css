@@ -1,0 +1,94 @@
+* {
+    color:  rgb(45, 45, 70);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    color:white
+}
+
+.sign-out-button{
+    background: transparent!important;
+    border:none;
+    color:#fff;
+}
+
+.sign-out-button:hover{
+cursor:pointer;
+}
+
+
+.main-head {
+    background-color:#101058;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links-container a{
+    text-decoration: none;
+}
+
+.main-head div a{
+    padding:0px 20px;
+}
+
+.main-head a {
+    color:white;
+}
+
+.main-head h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 30px 0px;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    gap: 10px;
+}
+
+.edit-form label {
+    font-weight: bold;
+}
+
+.edit-form input {
+    outline: none;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid silver;
+}
+
+.edit-form button {
+    outline: none;
+    font-size: 1.1em;
+    background-color:blue;
+    border: 1px solid blue;
+    color: white;
+    padding: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.edit-form button:hover {
+    background-color: white;
+    color: blue;
+    transition-property: background-color, color;
+    transition-duration: 0.3s;
+}
+

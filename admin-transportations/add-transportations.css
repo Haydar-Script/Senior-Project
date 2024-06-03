@@ -1,0 +1,115 @@
+* {
+    color:  rgb(45, 45, 70);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sign-out-button{
+    background: transparent!important;
+    border:none;
+    color:#fff;
+}
+
+.sign-out-button:hover{
+cursor:pointer;
+}
+
+
+h3{
+    color:white
+}
+
+.main-head {
+    background-color:#101058;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links-container a{
+    text-decoration: none;
+}
+
+.main-head div a{
+    padding:0px 20px;
+}
+
+.main-head a {
+    color:white;
+}
+
+.main-head h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 30px 0px;
+}
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    gap: 10px;
+}
+
+.add-form label {
+    font-weight: bold;
+}
+
+.add-form input {
+    outline: none;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid silver;
+}
+
+
+
+.transportation-card-right button{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    border:1px solid #4CAF50;
+    padding:5px 0px;
+    color:white;
+    transition: background-color 0.5s ease;
+}
+
+
+
+.transportation-card-right button:hover{
+    cursor:pointer;
+    background-color: white;
+    color:#4CAF50;
+}
+
+.add-form button {
+    outline: none;
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    font-size: 1.1em;
+    color: white;
+    padding: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.add-form button:hover {
+    background-color: white;
+    color: 4CAF50;
+    transition-property: background-color, color;
+    transition-duration: 0.3s;
+}

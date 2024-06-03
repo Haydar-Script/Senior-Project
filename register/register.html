@@ -1,0 +1,51 @@
+<head>
+    <title>Sharing Is Caring - Signup</title>
+    <link rel="stylesheet" href="./register.css">
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body class="main">
+    <header>
+        <div class="main-head">
+            <h1>Sharing Is Caring</h1>
+        </div>
+    </header>
+    <main>
+        <form class="form-element" method="POST" action="../backend/register.php">
+            <h2>Sign Up</h2>
+            <label>First Name:</label>
+            <input type="text" name="f_name">
+            <label>Last Name:</label>
+            <input type="text" name="l_name">
+            <label>Email:</label>
+            <input type="email" name="email">
+            <label>Phone Number:</label>
+            <input type="number" name="phone_number">
+            <label>Password:</label>
+            <input type="password" name="password">
+            <label for="security">Your Secret Question:</label>
+            <small>This is useful when you forget your password*</small>
+            <select name="questions">
+                <option value="What's the name of your first pet?">What's The Name Of Your First Pet?</option>
+                <option value="What's your favorite hobby?">What's Your Favorite Hobby?</option>
+                <option value="Which country is favorite besides yours?">Which Country Is Your Favorite Besides Yours?
+                </option>
+                <option value="What do you consider your comfort zone?">What Do You Consider Your Comfort Zone?</option>
+                <option value="Can you give a 3 words confession?">Can You Give A 3 Words Confession?</option>
+            </select>
+            <label>Your Answer:</label>
+            <input type="text" name="answer">
+            <div class="login-link-container" style="flex-direction: row">
+                <p>Already Have An Account?&nbsp; &nbsp; </p>
+                <a href="../login/login.php">Go To The Login Page</a>
+            </div>
+            <div class="registration-buttons-container">
+                <button id="form-submit" name="submit-user">Register as user</button>
+                <button id="form-submit" name="submit-admin">Register as transporter</button>
+            </div>
+
+        </form>
+
+
+    </main>
+</body>
